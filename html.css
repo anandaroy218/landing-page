@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.full-body> .hader{
+    display: flex;
+    justify-content: space-around;
+}
+.full-body> .hader> .logo{
+    width: 9.6875rem;
+    height: 4rem;
+    flex-shrink: 0;
+}
+.full-body> .hader> .sub-link{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+    
+}
+.full-body> .hader> .sub-link> .sub-ber{
+    display:  flex;
+    gap: 0.3rem;
+}
+.full-body> .hader> .sub-link> .sub-ber i{
+    padding-top: 0.2rem;
+    
+}
+.full-body> .hader> .btn{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    align-content: center;
+   
+}
+.full-body> .hader> .btn> button{
+    width: 6.0625rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #FF5336;
+    border: 0;
+}
+
+
+
+.full-body> .fast-st-box{
+    background: url(image/1st-bg.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    flex-shrink: 0;
+    
+}
+.full-body> .fast-st-box> .bborder{
+    margin-top: 4.5rem;
+    width: 73.125rem;
+    height: 22rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    align-items: center;
+    
+    
+}
+.full-body> .fast-st-box> .bborder> .st-box-sub-link{
+ display: flex;
+ gap: 4rem;
+ padding-bottom: 3rem;
+}
+.full-body> .fast-st-box> .bborder> .st-box-sub-link> .oonest-box,.twoost-box,.threest-box{
+    display: flex;
+    gap: 1rem;
+}
+.ssbox-content{
+    display: flex;
+    gap: 2rem;
+}
+ .subone,.subtwo,.subthree,.subfour,.subfive{
+    display: flex;
+    width: 11.3125rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid #D7D7D7;
+    background: #FFF;
+    justify-content: center;
+    padding-top: 0.7rem;
+    gap: 1rem;
+    color: #EC3011;
+
+   
+}
+
+.hone> .subone i{
+    padding-top: 0.3rem;
+    color: black;
+}
+.htwo> .subtwo i{
+    padding-top: 0.3rem;
+    color: black;
+}
+.hthree> .subthree i{
+    padding-top: 0.3rem;
+    color: black;
+}
+
+.hfour> .subfour i{
+    padding-top: 0.3rem;
+    color: black;
+}
+.hfive> .subfive i{
+    padding-top: 0.3rem;
+    color: black;
+}
+.ssbox-content i{
+    color: #EC3011;
+    padding-top: 2rem;
+}
+#vv {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #FF5336;
+    font-family: League Spartan;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#ah{
+    padding-left: 3.6rem;
+    color: #868686;
+    font-family: League Spartan;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0.3rem;
+}
+
+.second-box> .second-box-hed{
+    display: flex;
+    justify-content: space-around;
+}
